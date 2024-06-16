@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(virglrenderer)
 
 find_package(Python3 REQUIRED)
+find_package(Vulkan REQUIRED)
 include(TestBigEndian)
 include(CheckIncludeFile)
 include(CheckSourceCompiles)
