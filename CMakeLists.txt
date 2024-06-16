@@ -152,6 +152,7 @@ file(CONFIGURE
 #cmakedefine CHECK_GL_ERRORS
 #cmakedefine ENABLE_MINIGBM_ALLOCATION
 #cmakedefine ENABLE_DRM
+#cmakedefine ENABLE_VENUS
 #cmakedefine ENABLE_DRM_MSM
 #cmakedefine ENABLE_RENDER_SERVER
 #cmakedefine ENABLE_RENDER_SERVER_WORKER_PROCESS
