@@ -22,7 +22,8 @@ jobs:
     steps:
     - name: Installing ninja
       run: |
-        sudo apt install ninja-build
+        sudo apt install ninja-build libvulkan-dev vulkan-tools libdrm-dev
+
     - name: Clone repository
       uses: actions/checkout@v3
       with:
